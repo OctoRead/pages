@@ -8,6 +8,13 @@ environment:
 
 dependencies:
   aqueduct: ^3.0.0
+  octoread_engine:
+    git:
+      url: git://github.com/OctoRead/engine.git
+
+dependency_overrides:
+  octoread_engine:
+    path: ../octoread_engine/
 
 dev_dependencies:
   test: ^1.0.0
